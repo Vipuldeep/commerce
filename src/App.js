@@ -1,9 +1,10 @@
 import Products from './components/Products/Products';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      e-commerce
+      <Navbar />
       <Products />
     </div>
   );
